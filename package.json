@@ -1,0 +1,46 @@
+{
+  "name": "minimus-theme",
+  "displayName": "Minimus Theme",
+  "description": "A clean and minimal theme to boost your focus and productivity",
+  "version": "0.0.1",
+  "icon": "images/minimus-logo.png",
+  "galleryBanner": {
+    "color": "#fefefe",
+    "theme": "light"
+  },
+  "publisher": "spaceinvadev",
+  "author": {
+    "name": "Mauricio Paternina",
+    "email": "hello@spaceinva.dev",
+    "url": "https://spaceinva.dev"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "minimal",
+    "clean",
+    "light",
+    "white"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimus Theme",
+        "uiTheme": "vs",
+        "path": "./themes/minimus-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceinvadev/minimus-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/spaceinvadev/minimus-vscode-theme/issues"
+  }
+}
